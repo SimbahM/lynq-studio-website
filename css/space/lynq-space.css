@@ -1,0 +1,151 @@
+.lynq-space {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/the-gate.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.waterfalls-kitchen {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/waterfalls.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.waterfalls-kitchen-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/waterfalls.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nbsz {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/nbsz.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nbsz-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/nbsz.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.penduka {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/penduka.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.penduka-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/penduka.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.exhibition {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/exhibition-stand.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.exhibition-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/exhibition-stand.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gate {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/gate.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gate-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/gate.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sci-fi {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/sci-fi-lab.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sci-fi-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/sci-fi-lab.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.que {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/que.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.que-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/que.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gweru {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/gweru.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gweru-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/gweru.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.the-house {
+  display: flex;
+  background-image: url(../../assets/images/lynq-space/the-house.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.the-house-gweru-project {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/the-house.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=lynq-space.css.map */

@@ -1,0 +1,102 @@
+section.hero {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+@media (max-width: 1024px) {
+  section.hero {
+    height: 80vh;
+  }
+}
+@media (max-width: 768px) {
+  section.hero {
+    height: 60vh;
+  }
+}
+@media (max-width: 425px) {
+  section.hero {
+    height: 50vh;
+  }
+}
+section.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: inherit;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  section.hero .container {
+    padding-bottom: 30px;
+    gap: 10px;
+  }
+}
+section.hero .container .header {
+  color: var(--white);
+  font-size: 70px;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  section.hero .container .header {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section.hero .container .header {
+    font-size: 35px;
+  }
+}
+section.hero .container p {
+  color: var(--white);
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  section.hero .container p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  section.hero .container .lynq-studio-signature {
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  section.hero .container .lynq-studio-signature {
+    width: 250px;
+  }
+}
+section.hero .container .pagebody {
+  color: var(--white);
+  font-size: 24px;
+  width: 700px;
+  text-align: center;
+}
+section.hero .container .pagebody span {
+  font-family: "Montserrat";
+  color: var(--white);
+}
+section.hero .container .pagebody span strong {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: var(--accent);
+}
+@media (max-width: 1024px) {
+  section.hero .container .pagebody {
+    font-size: 21px;
+    width: 550px;
+  }
+}
+@media (max-width: 768px) {
+  section.hero .container .pagebody {
+    font-size: 21px;
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.hero .container .pagebody {
+    font-size: 21px;
+    width: 90%;
+  }
+}/*# sourceMappingURL=hero.css.map */

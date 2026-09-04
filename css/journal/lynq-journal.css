@@ -1,0 +1,232 @@
+.lynq-journal {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-journal/journal.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.journal-hero {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+@media (max-width: 1024px) {
+  section.journal-hero {
+    height: 80vh;
+  }
+}
+@media (max-width: 768px) {
+  section.journal-hero {
+    height: 60vh;
+  }
+}
+section.journal-hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: inherit;
+  padding-bottom: 30px;
+}
+@media (max-width: 768px) {
+  section.journal-hero .container {
+    padding-bottom: 30px;
+  }
+}
+section.journal-hero .container .header {
+  color: var(--white);
+  font-size: 70px;
+}
+@media (max-width: 1024px) {
+  section.journal-hero .container .header {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section.journal-hero .container .header {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  section.journal-hero .container .lynq-studio-signature {
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  section.journal-hero .container .lynq-studio-signature {
+    width: 250px;
+  }
+}
+section.journal-hero .container .pagebody {
+  color: var(--white);
+  font-size: 24px;
+  width: 700px;
+  text-align: center;
+}
+section.journal-hero .container .pagebody span {
+  font-family: "Montserrat";
+  color: var(--white);
+}
+section.journal-hero .container .pagebody span strong {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: var(--accent);
+}
+@media (max-width: 1024px) {
+  section.journal-hero .container .pagebody {
+    font-size: 21px;
+    width: 550px;
+  }
+}
+@media (max-width: 768px) {
+  section.journal-hero .container .pagebody {
+    font-size: 21px;
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.journal-hero .container .pagebody {
+    font-size: 21px;
+    width: 90%;
+  }
+}
+
+section.category-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+  width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 1250px) {
+  section.category-container {
+    width: 100%;
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 600px) {
+  section.category-container {
+    width: 90%;
+    padding: 50px 0px;
+  }
+}
+section.category-container .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+section.category-container .heading span {
+  font-size: 40px;
+  font-family: "Montserrat";
+}
+@media (max-width: 600px) {
+  section.category-container .heading span {
+    font-size: 30px;
+  }
+}
+section.category-container .heading span strong {
+  font-family: "Montserrat";
+}
+section.category-container .heading .divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--primary);
+}
+section.category-container .category-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 60px;
+  -moz-column-gap: 22px;
+       column-gap: 22px;
+}
+@media (max-width: 768px) {
+  section.category-container .category-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  section.category-container .category-box {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+  }
+}
+section.category-container .category-box a.category-item {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  gap: 10px;
+}
+section.category-container .category-box a.category-item:hover .viewport-img-box img {
+  width: 110%;
+  height: 110%;
+}
+section.category-container .category-box a.category-item .viewport-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  overflow: hidden;
+}
+@media (max-width: 1024px) {
+  section.category-container .category-box a.category-item .viewport-img-box {
+    height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  section.category-container .category-box a.category-item .viewport-img-box {
+    width: 100%;
+  }
+}
+section.category-container .category-box a.category-item .viewport-img-box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease 0.3s;
+}
+section.category-container .category-box a.category-item .tile-description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media (max-width: 768px) {
+  section.category-container .category-box a.category-item .tile-description {
+    width: 100%;
+  }
+}
+section.category-container .category-box a.category-item .tile-description h1.headline {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 18px;
+  color: var(--secondary);
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  section.category-container .category-box a.category-item .tile-description h1.headline {
+    font-size: 16px;
+  }
+}
+section.category-container .category-box a.category-item .tile-description .category-info {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  cursor: pointer;
+}
+section.category-container .category-box a.category-item .tile-description .category-info .date {
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 14px;
+}
+section.category-container .category-box a.category-item .tile-description .category-info .category-tag {
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}/*# sourceMappingURL=lynq-journal.css.map */

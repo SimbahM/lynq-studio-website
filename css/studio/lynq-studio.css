@@ -1,0 +1,488 @@
+.lynq {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/about-lynq-studio/lynq-studio.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto 0px auto;
+  width: 700px;
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  section.text-wrapper {
+    margin: 50px auto 0px auto;
+    width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  section.text-wrapper {
+    margin: 50px auto 50px auto;
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.text-wrapper {
+    margin: 50px auto 20px auto;
+    width: 90%;
+    gap: 15px;
+  }
+}
+section.text-wrapper .main-title {
+  display: flex;
+  flex-direction: column;
+}
+section.text-wrapper .main-title span.title {
+  color: #F5821F;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  section.text-wrapper .main-title span.title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  section.text-wrapper .main-title span.title {
+    font-size: 14px;
+  }
+}
+section.text-wrapper .main-title h1.headline {
+  color: #383D45;
+  font-size: 60px;
+  font-weight: 600;
+}
+@media (max-width: 1024px) {
+  section.text-wrapper .main-title h1.headline {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section.text-wrapper .main-title h1.headline {
+    font-size: 40px;
+  }
+}
+@media (max-width: 425px) {
+  section.text-wrapper .main-title h1.headline {
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  section.text-wrapper .main-title h1.headline {
+    font-size: 21px;
+  }
+}
+section.text-wrapper .pagebody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section.text-wrapper .pagebody p {
+  font-size: 18px;
+}
+@media (max-width: 1024px) {
+  section.text-wrapper .pagebody p {
+    font-size: 16px;
+  }
+}
+section.text-wrapper .pagebody span {
+  font-size: 21px;
+  font-weight: 500;
+}
+@media (max-width: 1024px) {
+  section.text-wrapper .pagebody span {
+    font-size: 19px;
+  }
+}
+
+.ecosystem {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/our-phylosophy.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lynq-flow {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/lynq-flow.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lynq-ai {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/lynq-ai.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.image-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 30px 0;
+}
+section.image-display .ecosystem,
+section.image-display .lynq-flow,
+section.image-display .lynq-ai {
+  display: flex;
+  height: 70vh;
+  width: 1000px;
+}
+@media (max-width: 1024px) {
+  section.image-display .ecosystem,
+  section.image-display .lynq-flow,
+  section.image-display .lynq-ai {
+    height: 50vh;
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  section.image-display .ecosystem,
+  section.image-display .lynq-flow,
+  section.image-display .lynq-ai {
+    height: 50vh;
+    width: 600px;
+  }
+}
+@media (max-width: 668px) {
+  section.image-display .ecosystem,
+  section.image-display .lynq-flow,
+  section.image-display .lynq-ai {
+    height: 50vh;
+    width: 90%;
+  }
+}
+section.image-display .ecosystem .container,
+section.image-display .lynq-flow .container,
+section.image-display .lynq-ai .container {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+section.image-display .ecosystem .container img,
+section.image-display .lynq-flow .container img,
+section.image-display .lynq-ai .container img {
+  width: 400px;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  section.image-display .ecosystem .container img,
+  section.image-display .lynq-flow .container img,
+  section.image-display .lynq-ai .container img {
+    width: 300px;
+  }
+}
+@media (max-width: 425px) {
+  section.image-display .ecosystem .container img,
+  section.image-display .lynq-flow .container img,
+  section.image-display .lynq-ai .container img {
+    width: 250px;
+  }
+}
+
+section.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1024px) {
+  section.grid {
+    width: 700px;
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  section.grid {
+    width: 600px;
+    gap: 30px;
+  }
+}
+@media (max-width: 628px) {
+  section.grid {
+    width: 90%;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 425px) {
+  section.grid {
+    width: 90%;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+  }
+}
+section.grid .image,
+section.grid .image2,
+section.grid .image3,
+section.grid .image4,
+section.grid .ui-image,
+section.grid .ui-image2,
+section.grid .ui-image3,
+section.grid .ui-image4,
+section.grid .problem,
+section.grid .simplicity,
+section.grid .confidence,
+section.grid .inspire {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 70vh;
+  padding-bottom: 30px;
+  gap: 20px;
+}
+@media (max-width: 1024px) {
+  section.grid .image,
+  section.grid .image2,
+  section.grid .image3,
+  section.grid .image4,
+  section.grid .ui-image,
+  section.grid .ui-image2,
+  section.grid .ui-image3,
+  section.grid .ui-image4,
+  section.grid .problem,
+  section.grid .simplicity,
+  section.grid .confidence,
+  section.grid .inspire {
+    height: 60vh;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  section.grid .image,
+  section.grid .image2,
+  section.grid .image3,
+  section.grid .image4,
+  section.grid .ui-image,
+  section.grid .ui-image2,
+  section.grid .ui-image3,
+  section.grid .ui-image4,
+  section.grid .problem,
+  section.grid .simplicity,
+  section.grid .confidence,
+  section.grid .inspire {
+    height: 50vh;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 425px) {
+  section.grid .image,
+  section.grid .image2,
+  section.grid .image3,
+  section.grid .image4,
+  section.grid .ui-image,
+  section.grid .ui-image2,
+  section.grid .ui-image3,
+  section.grid .ui-image4,
+  section.grid .problem,
+  section.grid .simplicity,
+  section.grid .confidence,
+  section.grid .inspire {
+    height: 35vh;
+    padding-bottom: 20px;
+  }
+}
+section.grid .image .icon,
+section.grid .image2 .icon,
+section.grid .image3 .icon,
+section.grid .image4 .icon,
+section.grid .ui-image .icon,
+section.grid .ui-image2 .icon,
+section.grid .ui-image3 .icon,
+section.grid .ui-image4 .icon,
+section.grid .problem .icon,
+section.grid .simplicity .icon,
+section.grid .confidence .icon,
+section.grid .inspire .icon {
+  width: 40px;
+}
+@media (max-width: 1024px) {
+  section.grid .image .icon,
+  section.grid .image2 .icon,
+  section.grid .image3 .icon,
+  section.grid .image4 .icon,
+  section.grid .ui-image .icon,
+  section.grid .ui-image2 .icon,
+  section.grid .ui-image3 .icon,
+  section.grid .ui-image4 .icon,
+  section.grid .problem .icon,
+  section.grid .simplicity .icon,
+  section.grid .confidence .icon,
+  section.grid .inspire .icon {
+    width: 30px;
+  }
+}
+section.grid .image p,
+section.grid .image2 p,
+section.grid .image3 p,
+section.grid .image4 p,
+section.grid .ui-image p,
+section.grid .ui-image2 p,
+section.grid .ui-image3 p,
+section.grid .ui-image4 p,
+section.grid .problem p,
+section.grid .simplicity p,
+section.grid .confidence p,
+section.grid .inspire p {
+  color: var(--white);
+  font-family: "Montserrat";
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  section.grid .image p,
+  section.grid .image2 p,
+  section.grid .image3 p,
+  section.grid .image4 p,
+  section.grid .ui-image p,
+  section.grid .ui-image2 p,
+  section.grid .ui-image3 p,
+  section.grid .ui-image4 p,
+  section.grid .problem p,
+  section.grid .simplicity p,
+  section.grid .confidence p,
+  section.grid .inspire p {
+    font-size: 14px;
+  }
+}
+section.grid .image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/image.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .image2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/image2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .image3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/image3.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .image4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/image4.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .ui-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/ui-image.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .ui-image2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/ui-image2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .ui-image3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/ui-image3.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .ui-image4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/ui-image4.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .problem {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/1problem.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .simplicity {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/2simplicity.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .confidence {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/3confidence.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.grid .inspire {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/about-lynq-studio/4inspire.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.text-wrapper-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 0px auto;
+  width: 700px;
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  section.text-wrapper-container {
+    width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  section.text-wrapper-container {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.text-wrapper-container {
+    width: 90%;
+  }
+}
+section.text-wrapper-container .pagebody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section.text-wrapper-container .pagebody p {
+  font-size: 18px;
+}
+@media (max-width: 1024px) {
+  section.text-wrapper-container .pagebody p {
+    font-size: 16px;
+  }
+}
+section.text-wrapper-container .pagebody strong {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 100px;
+  color: var(--secondary);
+}
+@media (max-width: 1024px) {
+  section.text-wrapper-container .pagebody strong {
+    font-size: 19px;
+  }
+}
+@media (max-width: 550px) {
+  section.text-wrapper-container .pagebody strong {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 425px) {
+  section.text-wrapper-container .pagebody strong {
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=lynq-studio.css.map */

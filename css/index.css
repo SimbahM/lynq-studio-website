@@ -1,0 +1,328 @@
+.main-container {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/the-gate-.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: end;
+  padding-bottom: 50px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+  section.main-container {
+    height: 90vh;
+  }
+}
+@media (max-width: 768px) {
+  section.main-container {
+    height: 80vh;
+  }
+}
+@media (max-width: 617px) {
+  section.main-container {
+    height: 60vh;
+    padding-bottom: 10px;
+  }
+}
+section.main-container .lynq-studio-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  color: var(--white);
+}
+section.main-container .lynq-studio-title h1 {
+  font-size: 60px;
+  color: var(--accent);
+  display: block;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+@media (max-width: 1024px) {
+  section.main-container .lynq-studio-title h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section.main-container .lynq-studio-title h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 617px) {
+  section.main-container .lynq-studio-title h1 {
+    font-size: 21px;
+  }
+}
+section.main-container .lynq-studio-title h1 span {
+  font-family: "Montserrat";
+  color: var(--white);
+}
+section.main-container .lynq-studio-title .lynq-siganture {
+  width: 650px;
+}
+@media (max-width: 1024px) {
+  section.main-container .lynq-studio-title .lynq-siganture {
+    width: 450px;
+  }
+}
+@media (max-width: 768px) {
+  section.main-container .lynq-studio-title .lynq-siganture {
+    width: 400px;
+  }
+}
+@media (max-width: 617px) {
+  section.main-container .lynq-studio-title .lynq-siganture {
+    width: 270px;
+  }
+}
+section.main-container .lynq-studio-title .pagebody {
+  color: var(--white);
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  margin-bottom: 20px;
+}
+section.main-container .lynq-studio-title .pagebody strong {
+  font-family: "Montserrat";
+  color: var(--accent);
+}
+@media (max-width: 1024px) {
+  section.main-container .lynq-studio-title .pagebody {
+    font-size: 21px;
+  }
+}
+@media (max-width: 768px) {
+  section.main-container .lynq-studio-title .pagebody {
+    font-size: 18px;
+  }
+}
+@media (max-width: 617px) {
+  section.main-container .lynq-studio-title .pagebody {
+    font-size: 16px;
+  }
+}
+@media (max-width: 472px) {
+  section.main-container .lynq-studio-title .pagebody {
+    font-size: 16px;
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  section.main-container .lynq-studio-title .scrolldown {
+    display: none;
+  }
+}
+
+.waterfalls {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/waterfalls-kitchen.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s ease;
+}
+
+.penduka {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/penduka.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cabs {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/cabs.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.homepage-section {
+  display: flex;
+  width: 100%;
+}
+section.homepage-section .container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: inherit;
+  gap: 10px;
+}
+section.homepage-section .container a.unit-link {
+  width: 100%;
+  height: 90vh;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link {
+    height: 70vh;
+  }
+}
+@media (max-width: 617px) {
+  section.homepage-section .container a.unit-link {
+    height: 50vh;
+  }
+}
+section.homepage-section .container a.unit-link .metadata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 3%;
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+section.homepage-section .container a.unit-link .metadata h1.headline {
+  color: var(--white);
+  font-size: 70px;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  section.homepage-section .container a.unit-link .metadata h1.headline {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link .metadata h1.headline {
+    font-size: 30px;
+  }
+}
+section.homepage-section .container a.unit-link .metadata span {
+  color: var(--accent);
+  margin: 10px 0;
+  font-size: 24px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link .metadata span {
+    font-size: 18px;
+  }
+}
+section.homepage-section .container a.unit-link .metadata p.subhead {
+  color: var(--white);
+  font-size: 23px;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link .metadata p.subhead {
+    font-size: 18px;
+  }
+}
+
+.exhibition-stand {
+  background-image: url(../assets/images/home-page/exhibition-stand.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nbsz {
+  background-image: url(../assets/images/home-page/nbsz.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gweru {
+  background-image: url(../assets/images/home-page/gweru.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sci-fi {
+  background-image: url(../assets/images/home-page/sci-fi-lab.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.grid-homepage-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+@media (max-width: 768px) {
+  section.grid-homepage-section {
+    margin: 10px 0px;
+  }
+}
+section.grid-homepage-section .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  section.grid-homepage-section .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+section.grid-homepage-section .container a.unit-link {
+  text-decoration: none;
+  width: 100%;
+  height: 80vh;
+}
+@media (max-width: 1024px) {
+  section.grid-homepage-section .container a.unit-link {
+    height: 70vh;
+  }
+}
+@media (max-width: 617px) {
+  section.grid-homepage-section .container a.unit-link {
+    height: 50vh;
+  }
+}
+section.grid-homepage-section .container a.unit-link .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 3%;
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all ease 0.3s;
+}
+section.grid-homepage-section .container a.unit-link .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+section.grid-homepage-section .container a.unit-link .overlay h1.headline {
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  section.grid-homepage-section .container a.unit-link .overlay h1.headline {
+    font-size: 30px;
+  }
+}
+section.grid-homepage-section .container a.unit-link .overlay p.subhead {
+  color: var(--white);
+  font-size: 21px;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  section.grid-homepage-section .container a.unit-link .overlay p.subhead {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=index.css.map */

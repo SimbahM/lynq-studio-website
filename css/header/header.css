@@ -1,0 +1,209 @@
+.nav-container {
+  position: absolute;
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  margin: 0 auto -50px auto;
+  z-index: 300;
+}
+@media (max-width: 1024px) {
+  .nav-container {
+    width: 100%;
+  }
+}
+.nav-container nav {
+  width: 1000px;
+  margin: 0 auto;
+  height: inherit;
+}
+.nav-container nav ul.desktop-nav-items {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .nav-container nav ul.desktop-nav-items {
+    display: none;
+    pointer-events: none;
+  }
+}
+.nav-container nav ul.desktop-nav-items li {
+  list-style-type: none;
+}
+.nav-container nav ul.desktop-nav-items li a {
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 0 0 2px 2px;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  opacity: 0.8;
+  font-family: "Montserrat";
+}
+.nav-container nav ul.desktop-nav-items li a strong {
+  font-family: "Montserrat";
+}
+.nav-container nav ul.desktop-nav-items li a img.lynq-logo-white {
+  display: block;
+  width: 70px;
+  transition: all 0.3s ease;
+}
+.nav-container nav ul.desktop-nav-items li a img.lynq-logo-color {
+  width: 70px;
+  transition: all 0.3s ease;
+  display: none;
+  pointer-events: none;
+}
+.nav-container nav ul.desktop-nav-items li a:hover {
+  color: var(--accent);
+}
+.nav-container nav ul.desktop-nav-items li a:hover img.lynq-logo-white {
+  display: none;
+  pointer-events: none;
+}
+.nav-container nav ul.desktop-nav-items li a:hover img.lynq-logo-color {
+  display: block;
+  pointer-events: all;
+}
+.nav-container nav .mobile-nav {
+  display: none;
+  pointer-events: none;
+  flex-direction: column;
+  height: inherit;
+}
+@media (max-width: 768px) {
+  .nav-container nav .mobile-nav {
+    display: flex;
+    pointer-events: all;
+  }
+}
+.nav-container nav .mobile-nav .mobile-nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu a.lynq-logo img.lynq-logo {
+  width: 70px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container {
+  width: 20px;
+  height: 44px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container .menu-icon {
+  position: relative;
+  width: 100%;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container .menu-icon .line-1,
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container .menu-icon .line-2 {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: var(--white);
+  transition-duration: 0.3s;
+  transition-property: transform, top;
+  transition-delay: 0s, 0.3s;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container .menu-icon .line-1 {
+  top: -4px;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container .menu-icon .line-2 {
+  top: 4px;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon.active .line-1 {
+  top: 0;
+  transform: rotateZ(45deg);
+  transition-property: top, transform;
+  transition-delay: 0s, 0.3s;
+  transition-duration: 0.3s;
+}
+.nav-container nav .mobile-nav .mobile-nav-menu .menu-icon.active .line-2 {
+  top: 0;
+  transform: rotateZ(-45deg);
+  transition-property: top, transform;
+  transition-delay: 0s, 0.3s;
+  transition-duration: 0.3s;
+}
+
+.mobile-nav-items {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 0vh;
+  padding: 0px 20px;
+  pointer-events: auto;
+  transition: all 0.5s ease;
+  overflow-y: hidden;
+  background: var(--primary);
+  gap: 25px;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .mobile-nav-items {
+    display: flex;
+    pointer-events: all;
+  }
+}
+.mobile-nav-items ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 25px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.mobile-nav-items ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+.mobile-nav-items ul li a strong {
+  font-family: "Montserrat";
+}
+.mobile-nav-items .divider {
+  background-color: rgba(243, 247, 250, 0.4352941176);
+  height: 1px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.mobile-nav-items .lynq-logo {
+  width: 150px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav-items.active {
+  height: 100vh;
+  top: 0;
+  padding: 100px 20px;
+}
+.mobile-nav-items.active ul {
+  opacity: 1;
+}
+.mobile-nav-items.active .divider {
+  opacity: 1;
+}
+.mobile-nav-items.active .lynq-logo {
+  opacity: 1;
+}/*# sourceMappingURL=header.css.map */

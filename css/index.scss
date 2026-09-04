@@ -1,0 +1,323 @@
+.main-container {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/the-gate-.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: end;
+    padding-bottom: 50px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    @media (max-width: 1024px) {
+        height: 90vh;
+    }
+
+    @media (max-width: 768px) {
+        height: 80vh;
+    }
+
+    @media (max-width: 617px) {
+        height: 60vh;
+        padding-bottom: 10px;
+    }
+
+    .lynq-studio-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        color: var(--white);
+
+        h1 {
+            font-size: 60px;
+            color: var(--accent);
+            display: block;
+            letter-spacing: .05em;
+            font-weight: 600;
+
+            @media (max-width: 1024px) {
+                font-size: 50px;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 40px;
+            }
+
+            @media (max-width: 617px) {
+                font-size: 21px;
+            }
+
+            span {
+                font-family: "Montserrat";
+                color: var(--white);
+            }
+        }
+
+        .lynq-siganture {
+            width: 650px;
+
+            @media (max-width: 1024px) {
+                width: 450px;
+            }
+
+            @media (max-width: 768px) {
+                width: 400px;
+            }
+
+            @media (max-width: 617px) {
+                width: 270px;
+            }
+        }
+
+        .pagebody {
+            color: var(--white);
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: .04em;
+            margin-bottom: 20px;
+
+            strong {
+                font-family: "Montserrat";
+                color: var(--accent);
+            }
+
+            @media (max-width: 1024px) {
+                font-size: 21px;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+
+            @media (max-width: 617px) {
+                font-size: 16px;
+            }
+
+            @media (max-width: 472px) {
+                font-size: 16px;
+                width: 90%;
+            }
+        }
+
+        .scrolldown {
+
+            @media (max-width: 1024px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.waterfalls {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/waterfalls-kitchen.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
+}
+
+.penduka {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/penduka.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cabs {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/cabs.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.homepage-section {
+    display: flex;
+    width: 100%;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: inherit;
+        gap: 10px;
+
+        a.unit-link {
+            width: 100%;
+            height: 90vh;
+            text-decoration: none;
+            transition: all .3s ease;
+            cursor: pointer;
+
+            @media (max-width: 768px) {
+                height: 70vh;
+            }
+
+            @media (max-width: 617px) {
+                height: 50vh;
+            }
+
+            .metadata {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: end;
+                padding-bottom: 3%;
+                height: inherit;
+                width: inherit;
+                background-color: rgba(0, 0, 0, 0.3);
+
+                h1.headline {
+                    color: var(--white);
+                    font-size: 70px;
+                    letter-spacing: 0.1rem;
+                    cursor: pointer;
+
+                    @media (max-width: 1024px) {
+                        font-size: 50px;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 30px;
+                    }
+                }
+
+                span {
+                    color: var(--accent);
+                    margin: 10px 0;
+                    font-size: 24px;
+                    cursor: pointer;
+
+                    @media (max-width: 768px) {
+                        font-size: 18px;
+                    }
+                }
+
+                p.subhead {
+                    color: var(--white);
+                    font-size: 23px;
+                    letter-spacing: 0.05rem;
+                    font-weight: 300;
+                    cursor: pointer;
+
+                    @media (max-width: 768px) {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.exhibition-stand {
+    background-image: url(../assets/images/home-page/exhibition-stand.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nbsz {
+    background-image: url(../assets/images/home-page/nbsz.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gweru {
+    background-image: url(../assets/images/home-page/gweru.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sci-fi {
+    background-image: url(../assets/images/home-page/sci-fi-lab.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.grid-homepage-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+
+    @media (max-width: 768px) {
+        margin: 10px 0px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 10px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        a.unit-link {
+            text-decoration: none;
+            width: 100%;
+            height: 80vh;
+
+            @media (max-width: 1024px) {
+                height: 70vh;
+            }
+
+            @media (max-width: 617px) {
+                height: 50vh;
+            }
+
+            .overlay {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: end;
+                padding-bottom: 3%;
+                height: inherit;
+                width: inherit;
+                background-color: rgba(0, 0, 0, 0.3);
+                transition: all ease .3s;
+
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+
+                h1.headline {
+                    color: var(--white);
+                    font-size: 40px;
+                    letter-spacing: 0.1rem;
+                    text-align: center;
+                    cursor: pointer;
+
+                    @media (max-width: 768px) {
+                        font-size: 30px;
+                    }
+                }
+
+                p.subhead {
+                    color: var(--white);
+                    font-size: 21px;
+                    letter-spacing: 0.05rem;
+                    font-weight: 300;
+                    cursor: pointer;
+
+                    @media (max-width: 1024px) {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

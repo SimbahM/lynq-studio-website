@@ -1,0 +1,126 @@
+section.text {
+    display: flex;
+    padding: 100px 0 0 0;
+
+    @media (max-width: 768px) {
+        padding: 50px 0 30px 0;
+    }
+
+    @media (max-width: 425px) {
+        padding: 50px 0 30px 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin: 0 auto;
+        gap: 20px;
+
+        @media (max-width: 768px) {
+            width: 400px;
+        }
+
+        @media (max-width: 425px) {
+            width: 90%;
+        }
+
+        .main-title {
+            display: flex;
+            flex-direction: column;
+
+            @media (max-width: 425px) {
+                gap: 10px;
+            }
+
+            span.header {
+                color: var(--accent);
+                font-family: "Montserrat";
+                font-weight: 600;
+                font-size: 18px;
+
+                @media (max-width: 425px) {
+                    font-size: 16px;
+                }
+
+                @media (max-width: 320px) {
+                    font-size: 14px;
+                }
+            }
+
+            h1.title {
+                font-size: 60px;
+                font-weight: 700;
+                color: var(--secondary);
+
+                @media (max-width: 1024px) {
+                    font-size: 50px;
+                }
+
+                @media (max-width: 768px) {
+                    font-size: 30px;
+                }
+
+                @media (max-width: 425px) {
+                    font-size: 25px;
+                }
+
+                @media (max-width: 320px) {
+                    font-size: 21px;
+                }
+            }
+        }
+
+        .pagebody-text {
+            letter-spacing: .02em;
+            font-size: 18px;
+
+            @media (max-width: 425px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+section.grid {
+    display: flex;
+    padding: 100px 0 0 0;
+
+    @media (max-width: 768px) {
+        padding: 10px 0 0 0;
+    }
+
+    @media (max-width: 425px) {
+        padding: 10px 0 0 0;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        .display-images {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-bottom: 10px;
+
+            @media (max-width: 768px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        .main-bed {
+            margin-bottom: 10px;
+        }
+
+        .last-image {
+            margin-bottom: 100px;
+
+            @media (max-width: 768px) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

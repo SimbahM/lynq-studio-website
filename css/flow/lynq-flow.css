@@ -1,0 +1,31 @@
+.lynq-flow {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-flow/lynq-flow-cover.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.posb {
+  display: flex;
+  background-image: url(../../assets/images/lynq-flow/posb-app.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.posb-ib {
+  display: flex;
+  background-image: url(../../assets/images/lynq-flow/posb-ib.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cabs {
+  display: flex;
+  background-image: url(../../assets/images/lynq-flow/cabs-app.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=lynq-flow.css.map */

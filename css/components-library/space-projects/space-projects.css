@@ -1,0 +1,133 @@
+section.text {
+  display: flex;
+  padding: 100px 0 0 0;
+}
+@media (max-width: 768px) {
+  section.text {
+    padding: 50px 0 30px 0;
+  }
+}
+@media (max-width: 425px) {
+  section.text {
+    padding: 50px 0 30px 0;
+  }
+}
+section.text .container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  section.text .container {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.text .container {
+    width: 90%;
+  }
+}
+section.text .container .main-title {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 425px) {
+  section.text .container .main-title {
+    gap: 10px;
+  }
+}
+section.text .container .main-title span.header {
+  color: var(--accent);
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+}
+@media (max-width: 425px) {
+  section.text .container .main-title span.header {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  section.text .container .main-title span.header {
+    font-size: 14px;
+  }
+}
+section.text .container .main-title h1.title {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--secondary);
+}
+@media (max-width: 1024px) {
+  section.text .container .main-title h1.title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section.text .container .main-title h1.title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 425px) {
+  section.text .container .main-title h1.title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  section.text .container .main-title h1.title {
+    font-size: 21px;
+  }
+}
+section.text .container .pagebody-text {
+  letter-spacing: 0.02em;
+  font-size: 18px;
+}
+@media (max-width: 425px) {
+  section.text .container .pagebody-text {
+    font-size: 16px;
+  }
+}
+
+section.grid {
+  display: flex;
+  padding: 100px 0 0 0;
+}
+@media (max-width: 768px) {
+  section.grid {
+    padding: 10px 0 0 0;
+  }
+}
+@media (max-width: 425px) {
+  section.grid {
+    padding: 10px 0 0 0;
+  }
+}
+section.grid .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+section.grid .container .display-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  section.grid .container .display-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+section.grid .container .main-bed {
+  margin-bottom: 10px;
+}
+section.grid .container .last-image {
+  margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  section.grid .container .last-image {
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=space-projects.css.map */
