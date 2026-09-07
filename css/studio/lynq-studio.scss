@@ -9,7 +9,7 @@
 section.text-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 100px auto 0px auto;
+    margin: 200px auto 0px auto;
     width: 700px;
     gap: 30px;
 
@@ -34,7 +34,7 @@ section.text-wrapper {
         flex-direction: column;
 
         span.title {
-            color: #F5821F;
+            color: var(--accent);
             font-family: "Montserrat";
             font-weight: 600;
             font-size: 18px;
@@ -49,9 +49,9 @@ section.text-wrapper {
         }
 
         h1.headline {
-            color: #383D45;
+            color: var(--secondary);
             font-size: 60px;
-            font-weight: 600;
+            font-weight: 700;
 
             @media (max-width: 1024px) {
                 font-size: 50px;
@@ -62,11 +62,7 @@ section.text-wrapper {
             }
 
             @media (max-width: 425px) {
-                font-size: 25px;
-            }
-
-            @media (max-width: 320px) {
-                font-size: 21px;
+                font-size: 35px;
             }
         }
     }
@@ -81,6 +77,20 @@ section.text-wrapper {
 
             @media (max-width: 1024px) {
                 font-size: 16px;
+            }
+        }
+
+        .text-style {
+            color: var(--accent);
+            font-family: "Montserrat";
+
+            strong {
+                font-family: "Montserrat";
+            }
+
+            span {
+                color: var(--secondary);
+                margin: 0 10px;
             }
         }
 
@@ -377,7 +387,7 @@ section.text-wrapper-container {
             }
         }
 
-        strong {
+        span {
             font-size: 21px;
             font-weight: 500;
             margin-bottom: 100px;

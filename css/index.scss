@@ -24,7 +24,7 @@ section.main-container {
     }
 
     @media (max-width: 617px) {
-        height: 60vh;
+        height: 50vh;
         padding-bottom: 10px;
     }
 
@@ -83,6 +83,7 @@ section.main-container {
             font-size: 24px;
             letter-spacing: .04em;
             margin-bottom: 20px;
+            width: 700px;
 
             strong {
                 font-family: "Montserrat";
@@ -95,6 +96,7 @@ section.main-container {
 
             @media (max-width: 768px) {
                 font-size: 18px;
+                width: 400px;
             }
 
             @media (max-width: 617px) {
@@ -158,6 +160,17 @@ section.homepage-section {
             transition: all .3s ease;
             cursor: pointer;
 
+            &:hover {
+
+                .metadata {
+                    .primary-button {
+
+                        background-color: rgba(255, 255, 255, 0.3);
+                        border-top: 3px rgb(255, 255, 255) solid;
+                    }
+                }
+            }
+
             @media (max-width: 768px) {
                 height: 70vh;
             }
@@ -211,6 +224,27 @@ section.homepage-section {
 
                     @media (max-width: 768px) {
                         font-size: 18px;
+                    }
+                }
+
+                .primary-button {
+                    text-decoration: none;
+                    background-color: rgba(255, 255, 255, 0.2);
+                    backdrop-filter: blur(8px);
+                    border-top: 3px rgb(152, 152, 152) solid;
+                    color: var(--primary);
+                    font-size: 14px;
+                    padding: 13px 35px;
+                    text-transform: uppercase;
+                    color: var(--white);
+                    letter-spacing: 0.15rem;
+                    border-radius: 1px;
+                    transition: all 0.3s ease 0s;
+                    margin: 20px 0;
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.3);
+                        border-top: 3px rgb(255, 255, 255) solid;
                     }
                 }
             }
@@ -292,6 +326,11 @@ section.grid-homepage-section {
 
                 &:hover {
                     background-color: rgba(0, 0, 0, 0.5);
+
+                    .primary-button {
+                        background-color: rgba(255, 255, 255, 0.3);
+                        border-top: 3px rgb(255, 255, 255) solid;
+                    }
                 }
 
                 h1.headline {
@@ -315,6 +354,27 @@ section.grid-homepage-section {
 
                     @media (max-width: 1024px) {
                         font-size: 18px;
+                    }
+                }
+
+                .primary-button {
+                    text-decoration: none;
+                    background-color: rgba(255, 255, 255, 0.2);
+                    backdrop-filter: blur(8px);
+                    border-top: 3px rgb(152, 152, 152) solid;
+                    color: var(--primary);
+                    font-size: 14px;
+                    padding: 13px 35px;
+                    text-transform: uppercase;
+                    color: var(--white);
+                    letter-spacing: 0.15rem;
+                    border-radius: 1px;
+                    transition: all 0.3s ease 0s;
+                    margin: 20px 0;
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.3);
+                        border-top: 3px rgb(255, 255, 255) solid;
                     }
                 }
             }

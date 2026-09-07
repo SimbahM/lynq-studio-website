@@ -9,7 +9,7 @@
 section.text-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 100px auto 0px auto;
+  margin: 200px auto 0px auto;
   width: 700px;
   gap: 30px;
 }
@@ -37,7 +37,7 @@ section.text-wrapper .main-title {
   flex-direction: column;
 }
 section.text-wrapper .main-title span.title {
-  color: #F5821F;
+  color: var(--accent);
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 18px;
@@ -53,9 +53,9 @@ section.text-wrapper .main-title span.title {
   }
 }
 section.text-wrapper .main-title h1.headline {
-  color: #383D45;
+  color: var(--secondary);
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 700;
 }
 @media (max-width: 1024px) {
   section.text-wrapper .main-title h1.headline {
@@ -69,12 +69,7 @@ section.text-wrapper .main-title h1.headline {
 }
 @media (max-width: 425px) {
   section.text-wrapper .main-title h1.headline {
-    font-size: 25px;
-  }
-}
-@media (max-width: 320px) {
-  section.text-wrapper .main-title h1.headline {
-    font-size: 21px;
+    font-size: 35px;
   }
 }
 section.text-wrapper .pagebody {
@@ -89,6 +84,17 @@ section.text-wrapper .pagebody p {
   section.text-wrapper .pagebody p {
     font-size: 16px;
   }
+}
+section.text-wrapper .pagebody .text-style {
+  color: var(--accent);
+  font-family: "Montserrat";
+}
+section.text-wrapper .pagebody .text-style strong {
+  font-family: "Montserrat";
+}
+section.text-wrapper .pagebody .text-style span {
+  color: var(--secondary);
+  margin: 0 10px;
 }
 section.text-wrapper .pagebody span {
   font-size: 21px;
@@ -465,24 +471,24 @@ section.text-wrapper-container .pagebody p {
     font-size: 16px;
   }
 }
-section.text-wrapper-container .pagebody strong {
+section.text-wrapper-container .pagebody span {
   font-size: 21px;
   font-weight: 500;
   margin-bottom: 100px;
   color: var(--secondary);
 }
 @media (max-width: 1024px) {
-  section.text-wrapper-container .pagebody strong {
+  section.text-wrapper-container .pagebody span {
     font-size: 19px;
   }
 }
 @media (max-width: 550px) {
-  section.text-wrapper-container .pagebody strong {
+  section.text-wrapper-container .pagebody span {
     margin-bottom: 50px;
   }
 }
 @media (max-width: 425px) {
-  section.text-wrapper-container .pagebody strong {
+  section.text-wrapper-container .pagebody span {
     margin-bottom: 30px;
   }
 }/*# sourceMappingURL=lynq-studio.css.map */

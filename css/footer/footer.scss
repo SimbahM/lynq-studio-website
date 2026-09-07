@@ -116,17 +116,35 @@ footer {
             }
         }
 
+        a {
 
+            img.logo-symbol {
+                width: 70px;
+                transition: all .3s ease;
+                color: aqua;
 
-        .logo-symbol {
-            width: 70px;
+                @media (max-width: 425px) {
+                    width: 50px;
+                }
 
-            @media (max-width: 425px) {
-                width: 50px;
+                @media (max-width: 320px) {
+                    width: 30px;
+                }
+
+                &:hover {
+                    opacity: .7;
+                }
             }
 
-            @media (max-width: 320px) {
-                width: 30px;
+            .lynq-icon {
+                fill: var(--accent);
+                transition: all .3s ease;
+                width: 54px;
+                height: 54px;
+
+                &:hover {
+                    fill: var(--ale-brown);
+                }
             }
         }
 

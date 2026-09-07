@@ -164,6 +164,24 @@ section.category-container {
                         height: 110%;
                     }
                 }
+
+                .tile-description {
+
+                    h1.headline {
+                        text-decoration: underline;
+                    }
+
+                    .category-info {
+
+                        .date {
+                            text-decoration: underline;
+                        }
+
+                        .category-tag {
+                            text-decoration: underline;
+                        }
+                    }
+                }
             }
 
             .viewport-img-box {
@@ -208,6 +226,7 @@ section.category-container {
                     font-size: 18px;
                     color: var(--secondary);
                     cursor: pointer;
+                    transition: all .3s ease;
 
                     @media (max-width: 1024px) {
                         font-size: 16px;
@@ -224,6 +243,7 @@ section.category-container {
                         color: var(--primary);
                         cursor: pointer;
                         font-size: 14px;
+                        transition: all .3s ease;
                     }
 
                     .category-tag {
@@ -231,6 +251,7 @@ section.category-container {
                         font-weight: 600;
                         cursor: pointer;
                         font-size: 14px;
+                        transition: all .3s ease;
                     }
                 }
             }

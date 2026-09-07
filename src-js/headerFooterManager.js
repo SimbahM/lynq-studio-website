@@ -79,29 +79,29 @@ class SpecialFooter extends HTMLElement {
                 <ul>
                     <li>
                         <a href="">
-                            <img src="../assets/icons/behance.svg" alt="behance.lynqStudio">
+                            <img src="./assets/icons/behance.svg" alt="behance.lynqStudio">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="../assets/icons/instagram.svg" alt="instagram.lynqStudio">
+                            <img src="./assets/icons/instagram.svg" alt="instagram.lynqStudio">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="../assets/icons/facebook.svg" alt="facebook.lynqStudio">
+                            <img src="./assets/icons/facebook.svg" alt="facebook.lynqStudio">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="../assets/icons/linkedin.svg" alt="linkedin.lynqStudio">
+                            <img src="./assets/icons/linkedin.svg" alt="linkedin.lynqStudio">
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="lynq-studio">
-                <img class="lynq-logo" src="../assets/icons/lynq-studio-text-logo.svg" alt="lynq Studio Text Logo">
-                <img class="lynq-signature" src="../assets/icons/lynq-signature-dark.svg" alt="lynq Studio Signature">
+                <img class="lynq-logo" src="./assets/icons/lynq-studio-text-logo.svg" alt="lynq Studio Text Logo">
+                <img class="lynq-signature" src="./assets/icons/lynq-signature-dark.svg" alt="lynq Studio Signature">
             </div>
 
             <div class="contacts-details">
@@ -115,7 +115,26 @@ class SpecialFooter extends HTMLElement {
                     info@lynqstudio.co.zw
                 </p>
             </div>
-            <img class="logo-symbol" src="../assets/icons/lynq-favicon-logo.svg" alt="lynq Studio Symbol">
+
+            <a href="/">
+
+                <svg class="lynq-icon" width="100%" height="100%" viewBox="0 0 4788 3755" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                    xmlns:serif="http://www.serif.com/"
+                    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                    <g>
+                        <clipPath id="_clip1">
+                            <rect x="0" y="0" width="4784.821" height="3750.113" />
+                        </clipPath>
+                        <g clip-path="url(#_clip1)">
+                            <path
+                                d="M3816.038,1281.167l455.804,1134.713l-2127.113,0c-242.521,0 -467.746,-74.85 -653.983,-202.763c-117.658,-80.817 -219.758,-182.817 -300.812,-300.5c-42.642,-61.912 -79.458,-128.167 -109.654,-197.958l-684.071,-1702.987l210.242,-0l199.921,497.713c10.242,28.704 21.575,56.883 33.946,84.5c34.817,77.704 77.896,150.892 128.092,218.433c22.287,29.979 45.983,58.854 70.983,86.517c188.167,208.2 450.392,347.796 744.754,376.746c37.596,3.696 75.708,5.587 114.271,5.587l1917.625,0l-0.004,-0Z" />
+                            <path
+                                d="M12.529,11.671l210.242,0l707.596,1761.529c7.996,21.638 16.583,42.996 25.725,64.05c43.312,99.75 99.217,192.746 165.692,276.967c58.846,74.562 125.975,142.242 199.987,201.637c45.596,36.596 93.804,70.046 144.3,100.025c43,25.525 87.654,48.542 133.771,68.829c153.008,67.329 322.037,104.704 499.7,104.704l2242.004,0l455.8,1134.713l-2422.125,0c-99.979,0 -197.317,-11.425 -290.787,-33.037c-84.654,-19.571 -166.137,-47.504 -243.537,-82.879c-80.4,-36.746 -156.404,-81.533 -226.979,-133.317c-182.029,-133.575 -327.979,-313.767 -420.325,-523l-1181.062,-2940.217l-0,-0.004Z" />
+                        </g>
+                    </g>
+                </svg>
+            </a>
 
             <div class="legal">
                 <div class="horizontal-divider"></div>

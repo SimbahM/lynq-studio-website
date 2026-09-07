@@ -113,18 +113,32 @@ footer .container .contacts-details .mail strong {
   font-family: "Montserrat";
   color: var(--accent);
 }
-footer .container .logo-symbol {
+footer .container a img.logo-symbol {
   width: 70px;
+  transition: all 0.3s ease;
+  color: aqua;
 }
 @media (max-width: 425px) {
-  footer .container .logo-symbol {
+  footer .container a img.logo-symbol {
     width: 50px;
   }
 }
 @media (max-width: 320px) {
-  footer .container .logo-symbol {
+  footer .container a img.logo-symbol {
     width: 30px;
   }
+}
+footer .container a img.logo-symbol:hover {
+  opacity: 0.7;
+}
+footer .container a .lynq-icon {
+  fill: var(--accent);
+  transition: all 0.3s ease;
+  width: 54px;
+  height: 54px;
+}
+footer .container a .lynq-icon:hover {
+  fill: var(--ale-brown);
 }
 footer .container .legal {
   display: flex;

@@ -163,6 +163,15 @@ section.category-container .category-box a.category-item:hover .viewport-img-box
   width: 110%;
   height: 110%;
 }
+section.category-container .category-box a.category-item:hover .tile-description h1.headline {
+  text-decoration: underline;
+}
+section.category-container .category-box a.category-item:hover .tile-description .category-info .date {
+  text-decoration: underline;
+}
+section.category-container .category-box a.category-item:hover .tile-description .category-info .category-tag {
+  text-decoration: underline;
+}
 section.category-container .category-box a.category-item .viewport-img-box {
   display: flex;
   flex-direction: column;
@@ -207,6 +216,7 @@ section.category-container .category-box a.category-item .tile-description h1.he
   font-size: 18px;
   color: var(--secondary);
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 @media (max-width: 1024px) {
   section.category-container .category-box a.category-item .tile-description h1.headline {
@@ -223,10 +233,12 @@ section.category-container .category-box a.category-item .tile-description .cate
   color: var(--primary);
   cursor: pointer;
   font-size: 14px;
+  transition: all 0.3s ease;
 }
 section.category-container .category-box a.category-item .tile-description .category-info .category-tag {
   color: var(--accent);
   font-weight: 600;
   cursor: pointer;
   font-size: 14px;
+  transition: all 0.3s ease;
 }/*# sourceMappingURL=lynq-journal.css.map */

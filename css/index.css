@@ -27,7 +27,7 @@ section.main-container {
 }
 @media (max-width: 617px) {
   section.main-container {
-    height: 60vh;
+    height: 50vh;
     padding-bottom: 10px;
   }
 }
@@ -89,6 +89,7 @@ section.main-container .lynq-studio-title .pagebody {
   font-size: 24px;
   letter-spacing: 0.04em;
   margin-bottom: 20px;
+  width: 700px;
 }
 section.main-container .lynq-studio-title .pagebody strong {
   font-family: "Montserrat";
@@ -102,6 +103,7 @@ section.main-container .lynq-studio-title .pagebody strong {
 @media (max-width: 768px) {
   section.main-container .lynq-studio-title .pagebody {
     font-size: 18px;
+    width: 400px;
   }
 }
 @media (max-width: 617px) {
@@ -163,6 +165,10 @@ section.homepage-section .container a.unit-link {
   transition: all 0.3s ease;
   cursor: pointer;
 }
+section.homepage-section .container a.unit-link:hover .metadata .primary-button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-top: 3px rgb(255, 255, 255) solid;
+}
 @media (max-width: 768px) {
   section.homepage-section .container a.unit-link {
     height: 70vh;
@@ -221,6 +227,25 @@ section.homepage-section .container a.unit-link .metadata p.subhead {
   section.homepage-section .container a.unit-link .metadata p.subhead {
     font-size: 18px;
   }
+}
+section.homepage-section .container a.unit-link .metadata .primary-button {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-top: 3px rgb(152, 152, 152) solid;
+  color: var(--primary);
+  font-size: 14px;
+  padding: 13px 35px;
+  text-transform: uppercase;
+  color: var(--white);
+  letter-spacing: 0.15rem;
+  border-radius: 1px;
+  transition: all 0.3s ease 0s;
+  margin: 20px 0;
+}
+section.homepage-section .container a.unit-link .metadata .primary-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-top: 3px rgb(255, 255, 255) solid;
 }
 
 .exhibition-stand {
@@ -302,6 +327,10 @@ section.grid-homepage-section .container a.unit-link .overlay {
 section.grid-homepage-section .container a.unit-link .overlay:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+section.grid-homepage-section .container a.unit-link .overlay:hover .primary-button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-top: 3px rgb(255, 255, 255) solid;
+}
 section.grid-homepage-section .container a.unit-link .overlay h1.headline {
   color: var(--white);
   font-size: 40px;
@@ -325,4 +354,23 @@ section.grid-homepage-section .container a.unit-link .overlay p.subhead {
   section.grid-homepage-section .container a.unit-link .overlay p.subhead {
     font-size: 18px;
   }
+}
+section.grid-homepage-section .container a.unit-link .overlay .primary-button {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-top: 3px rgb(152, 152, 152) solid;
+  color: var(--primary);
+  font-size: 14px;
+  padding: 13px 35px;
+  text-transform: uppercase;
+  color: var(--white);
+  letter-spacing: 0.15rem;
+  border-radius: 1px;
+  transition: all 0.3s ease 0s;
+  margin: 20px 0;
+}
+section.grid-homepage-section .container a.unit-link .overlay .primary-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-top: 3px rgb(255, 255, 255) solid;
 }/*# sourceMappingURL=index.css.map */

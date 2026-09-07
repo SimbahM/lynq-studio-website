@@ -55,28 +55,23 @@ section.text .container .main-title span.header {
   }
 }
 section.text .container .main-title h1.title {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
   color: var(--secondary);
 }
 @media (max-width: 1024px) {
   section.text .container .main-title h1.title {
-    font-size: 50px;
+    font-size: 60px;
   }
 }
 @media (max-width: 768px) {
   section.text .container .main-title h1.title {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 @media (max-width: 425px) {
   section.text .container .main-title h1.title {
-    font-size: 25px;
-  }
-}
-@media (max-width: 320px) {
-  section.text .container .main-title h1.title {
-    font-size: 21px;
+    font-size: 35px;
   }
 }
 section.text .container .pagebody-text {

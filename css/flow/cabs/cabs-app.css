@@ -16,7 +16,7 @@ section.main-section-container {
 @media (max-width: 425px) {
   section.main-section-container {
     gap: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
 }
 section.main-section-container .main-title {
@@ -59,29 +59,34 @@ section.main-section-container .main-title h1.title2 {
   font-size: 60px;
   font-weight: 700;
   text-align: center;
+  width: 800px;
 }
 @media (max-width: 1024px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
     font-size: 50px;
+    width: 600px;
   }
 }
 @media (max-width: 768px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
-    font-size: 30px;
+    font-size: 40px;
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.main-section-container .main-title h1.title,
+  section.main-section-container .main-title h1.title2 {
+    font-size: 35px;
+    width: 90%;
   }
 }
 @media (max-width: 425px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
     font-size: 25px;
-  }
-}
-@media (max-width: 320px) {
-  section.main-section-container .main-title h1.title,
-  section.main-section-container .main-title h1.title2 {
-    font-size: 21px;
+    width: 90%;
   }
 }
 section.main-section-container img.signature {
@@ -95,6 +100,11 @@ section.main-section-container img.signature {
 @media (max-width: 768px) {
   section.main-section-container img.signature {
     width: 300px;
+  }
+}
+@media (max-width: 425px) {
+  section.main-section-container img.signature {
+    width: 250px;
   }
 }
 section.main-section-container span.subhead-title2 {
@@ -389,12 +399,14 @@ section.home-design {
   section.home-design {
     grid-template-columns: repeat(1, 1fr);
     width: 400px;
+    padding-top: 70px;
   }
 }
 @media (max-width: 425px) {
   section.home-design {
     grid-template-columns: repeat(1, 1fr);
     width: 300px;
+    padding-top: 50px;
   }
 }
 section.home-design .metadata {
@@ -721,7 +733,19 @@ section.text-display2 {
     margin-top: 50px;
   }
 }
-section.text-display2 span.header {
+section.text-display2 .main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 425px) {
+  section.text-display2 .main-title {
+    gap: 10px;
+  }
+}
+section.text-display2 .main-title span.header {
   color: #82BC00;
   font-family: "Montserrat";
   font-weight: 600;
@@ -729,30 +753,44 @@ section.text-display2 span.header {
   font-size: 18px;
 }
 @media (max-width: 425px) {
-  section.text-display2 span.header {
+  section.text-display2 .main-title span.header {
     font-size: 16px;
   }
 }
-section.text-display2 h1.title {
+@media (max-width: 320px) {
+  section.text-display2 .main-title span.header {
+    font-size: 14px;
+  }
+}
+section.text-display2 .main-title h1.title {
+  font-size: 60px;
+  font-weight: 700;
   text-align: center;
+  width: 800px;
   color: #101E8E;
-  font-size: 50px;
-  font-weight: 600;
 }
 @media (max-width: 1024px) {
-  section.text-display2 h1.title {
-    font-size: 40px;
+  section.text-display2 .main-title h1.title {
+    font-size: 50px;
+    width: 600px;
   }
 }
 @media (max-width: 768px) {
-  section.text-display2 h1.title {
-    font-size: 30px;
+  section.text-display2 .main-title h1.title {
+    font-size: 40px;
+    width: 400px;
   }
 }
-@media (max-width: 500px) {
-  section.text-display2 h1.title {
-    width: 300px;
-    font-size: 30px;
+@media (max-width: 425px) {
+  section.text-display2 .main-title h1.title {
+    font-size: 35px;
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  section.text-display2 .main-title h1.title {
+    font-size: 25px;
+    width: 90%;
   }
 }
 section.text-display2 .paragraphy {

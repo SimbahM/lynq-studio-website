@@ -63,6 +63,12 @@ section.hero {
             }
         }
 
+        .scrolldown {
+            @media (max-width: 1024px) {
+                display: none;
+            }
+        }
+
         .pagebody {
             color: var(--white);
             font-size: 24px;

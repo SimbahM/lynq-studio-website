@@ -2,9 +2,9 @@ section.title-wrapper {
   padding: 100px 10px 30px 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+  width: 1000px;
+  margin: 0 auto;
+  gap: 70px;
 }
 @media (max-width: 768px) {
   section.title-wrapper {
@@ -19,15 +19,12 @@ section.title-wrapper {
 section.title-wrapper .heading {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 section.title-wrapper .heading h1 {
   color: var(--secondary);
   font-size: 70px;
   font-weight: 700;
-  text-align: center;
 }
 @media (max-width: 768px) {
   section.title-wrapper .heading h1 {
@@ -41,7 +38,6 @@ section.title-wrapper .heading h1 {
 }
 section.title-wrapper .heading h2 {
   font-size: 30px;
-  text-align: center;
   color: var(--secondary);
   font-weight: 500;
 }
@@ -57,8 +53,9 @@ section.title-wrapper .heading h2 strong {
 }
 section.title-wrapper .heading span {
   font-size: 22px;
-  text-align: center;
   color: var(--secondary);
+  font-family: "Montserrat";
+  font-weight: 600;
 }
 @media (max-width: 1024px) {
   section.title-wrapper .heading span {
@@ -68,9 +65,6 @@ section.title-wrapper .heading span {
 section.title-wrapper .body-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 600px;
   gap: 30px;
 }
 @media (max-width: 768px) {
@@ -89,12 +83,11 @@ section.title-wrapper .body-text {
   }
 }
 section.title-wrapper .body-text p {
-  text-align: center;
-  font-size: 18px;
+  font-size: 21px;
 }
 @media (max-width: 768px) {
   section.title-wrapper .body-text p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -228,7 +221,9 @@ section.grid-works .container .work .tint .metadata {
 section.grid-works .container .work .tint .metadata .heading {
   color: var(--white);
   font-size: 25px;
+  cursor: pointer;
 }
 section.grid-works .container .work .tint .metadata .text {
   color: rgba(243, 247, 250, 0.4823529412);
+  cursor: pointer;
 }/*# sourceMappingURL=projects-grid.css.map */
