@@ -29,7 +29,7 @@ class SpecialFlowHeader extends HTMLElement {
 
             <div class="mobile-nav">
                 <div class="mobile-nav-menu">
-                    <a class="lynq-logo" href="/">
+                    <a class="lynq-logo" href="./">
 
                         <img class="color-logo" src="./assets/icons/lynq-studio-logo.svg" alt="LYNQ Studio Logo" />
 
