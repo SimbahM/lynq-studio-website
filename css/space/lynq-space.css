@@ -1,6 +1,6 @@
 .lynq-space {
   display: flex;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/the-gate.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/gate.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -38,17 +38,17 @@
   background-size: cover;
 }
 
-.penduka {
+.rez-home {
   display: flex;
-  background-image: url(../../assets/images/lynq-space/penduka.webp);
+  background-image: url(../../assets/images/lynq-space/rez-home.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.penduka-project {
+.rez-home-project {
   display: flex;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/penduka.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/lynq-space/rez-home.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

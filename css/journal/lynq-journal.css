@@ -163,15 +163,6 @@ section.category-container .category-box a.category-item:hover .viewport-img-box
   width: 110%;
   height: 110%;
 }
-section.category-container .category-box a.category-item:hover .tile-description h1.headline {
-  text-decoration: underline;
-}
-section.category-container .category-box a.category-item:hover .tile-description .category-info .date {
-  text-decoration: underline;
-}
-section.category-container .category-box a.category-item:hover .tile-description .category-info .category-tag {
-  text-decoration: underline;
-}
 section.category-container .category-box a.category-item .viewport-img-box {
   display: flex;
   flex-direction: column;
