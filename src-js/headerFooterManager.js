@@ -29,7 +29,7 @@ class SpecialHeader extends HTMLElement {
 
             <div class="mobile-nav">
                 <div class="mobile-nav-menu">
-                    <a class="lynq-logo" href="/">
+                    <a class="lynq-logo" href="./">
                         <img class="lynq-logo" src="./assets/icons/lynq-logo-white.svg" alt="LYNQ Studio Logo" />
                     </a>
                     <div class="menu-icon-container">
