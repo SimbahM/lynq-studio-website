@@ -229,4 +229,96 @@ section.grid-works .container .work .tint .metadata .heading {
 section.grid-works .container .work .tint .metadata .text {
   color: rgba(243, 247, 250, 0.4823529412);
   cursor: pointer;
+}
+
+section.before-and-after {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 10px;
+  gap: 200px;
+}
+@media (max-width: 1024px) {
+  section.before-and-after {
+    gap: 150px;
+  }
+}
+@media (max-width: 870px) {
+  section.before-and-after {
+    padding: 100px 10px;
+    gap: 100px;
+  }
+}
+@media (max-width: 425px) {
+  section.before-and-after {
+    padding: 50px 10px;
+    gap: 50px;
+  }
+}
+section.before-and-after .mobile-design {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+@media (max-width: 1024px) {
+  section.before-and-after .mobile-design {
+    gap: 40px;
+  }
+}
+@media (max-width: 768px) {
+  section.before-and-after .mobile-design {
+    gap: 20px;
+  }
+}
+@media (max-width: 550px) {
+  section.before-and-after .mobile-design {
+    gap: 10px;
+  }
+}
+section.before-and-after .mobile-design img {
+  width: 350px;
+}
+@media (max-width: 1024px) {
+  section.before-and-after .mobile-design img {
+    width: 300px;
+  }
+}
+@media (max-width: 870px) {
+  section.before-and-after .mobile-design img {
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  section.before-and-after .mobile-design img {
+    width: 200px;
+  }
+}
+@media (max-width: 550px) {
+  section.before-and-after .mobile-design img {
+    width: 150px;
+  }
+}
+@media (max-width: 425px) {
+  section.before-and-after .mobile-design img {
+    width: 130px;
+  }
+}
+@media (max-width: 375px) {
+  section.before-and-after .mobile-design img {
+    width: 100px;
+  }
+}
+section.before-and-after .mobile-design .arrow {
+  width: 70px;
+}
+@media (max-width: 768px) {
+  section.before-and-after .mobile-design .arrow {
+    width: 50px;
+  }
+}
+@media (max-width: 375px) {
+  section.before-and-after .mobile-design .arrow {
+    width: 30px;
+  }
 }/*# sourceMappingURL=projects-grid.css.map */
