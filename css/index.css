@@ -44,7 +44,7 @@ section.main-container .lynq-studio-title h1 {
   color: var(--accent);
   display: block;
   letter-spacing: 0.05em;
-  font-weight: 600;
+  font-weight: 700;
 }
 @media (max-width: 1024px) {
   section.main-container .lynq-studio-title h1 {

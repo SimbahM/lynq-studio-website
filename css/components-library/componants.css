@@ -75,7 +75,6 @@ h3 {
   --accent: #FFA500;
   --ale-brown: #A63E1B;
   --gray: #54595f;
-  --gold: #fac854;
 }
 
 @font-face {
@@ -125,9 +124,9 @@ h3 {
   transform: translateX(-50%);
   width: 6px;
   height: 6px;
-  background-color: var(--white);
+  background-color: var(--accent);
   border-radius: 100%;
-  box-shadow: 0px -5px 3px 1px rgba(228, 234, 237, 0.3);
+  box-shadow: 0px -5px 3px 1px var(--accent);
   animation: scrolldown-anim 2s infinite;
 }
 
