@@ -21,10 +21,11 @@ section.main-container {
 
     @media (max-width: 768px) {
         height: 80vh;
+        padding-bottom: 10px;
     }
 
     @media (max-width: 617px) {
-        height: 50vh;
+        height: 70vh;
         padding-bottom: 10px;
     }
 
@@ -276,7 +277,7 @@ section.grid {
         }
 
         @media (max-width: 425px) {
-            height: 35vh;
+            height: 40vh;
             padding-bottom: 20px;
         }
 

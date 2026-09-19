@@ -6,13 +6,11 @@ class SpecialFlowHeader extends HTMLElement {
             <ul class="desktop-nav-items">
                 <li>
                     <a class="logo" href="/">
-                        <img class="lynq-logo-white" src="./assets/icons/lynq-studio-logo.svg" alt="LYNQ Studio Logo" />
-                        <img class="lynq-logo-color" src="./assets/icons/lynq-studio-logo-hover.svg"
-                            alt="LYNQ Studio Logo" />
+                        <strong>LYNQ</strong> Studio
                     </a>
                 </li>
                 <li>
-                    <a href="./lynq-studio"><strong>LYNQ</strong> Studio</a>
+                    <a href="./lynq-story"><strong>LYNQ</strong> Story</a>
                 </li>
                 <li>
                     <a href="./lynq-space"><strong>LYNQ</strong> Space</a>
@@ -29,11 +27,9 @@ class SpecialFlowHeader extends HTMLElement {
 
             <div class="mobile-nav">
                 <div class="mobile-nav-menu">
-                    <a class="lynq-logo" href="./lynqstudio">
+                    <a class="lynq-logo" href="/">
 
-                        <img class="color-logo" src="./assets/icons/lynq-studio-logo.svg" alt="LYNQ Studio Logo" />
-
-                        <img class="white-logo" src="./assets/icons/lynq-logo-white.svg" alt="LYNQ Studio Logo" />
+                        <strong>LYNQ</strong> Studio
 
                     </a>
                     <div class="menu-icon-container">
@@ -50,7 +46,7 @@ class SpecialFlowHeader extends HTMLElement {
     <div class="mobile-nav-items">
         <ul>
             <li>
-                <a href="./lynq-studio"><strong>LYNQ</strong> Studio</a>
+                <a href="./lynq-story.html"><strong>LYNQ</strong> Story</a>
             </li>
             <li>
                 <a href="./lynq-space"><strong>LYNQ</strong> Space</a>

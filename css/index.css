@@ -23,11 +23,12 @@ section.main-container {
 @media (max-width: 768px) {
   section.main-container {
     height: 80vh;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 617px) {
   section.main-container {
-    height: 50vh;
+    height: 70vh;
     padding-bottom: 10px;
   }
 }
@@ -287,7 +288,7 @@ section.grid .image:hover .metadata {
 }
 @media (max-width: 425px) {
   section.grid .image {
-    height: 35vh;
+    height: 40vh;
     padding-bottom: 20px;
   }
 }

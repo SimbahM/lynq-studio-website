@@ -93,25 +93,24 @@
   align-items: center;
   height: inherit;
 }
-.nav-container nav .mobile-nav .mobile-nav-menu a.lynq-logo img.color-logo {
-  display: flex;
-  width: 70px;
-  opacity: 0.7;
-  transition: all 0.3s ease;
-  pointer-events: auto;
+.nav-container nav .mobile-nav .mobile-nav-menu .lynq-logo {
+  display: block;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 0 0 2px 2px;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  opacity: 0.8;
+  font-family: "Montserrat";
 }
-.nav-container nav .mobile-nav .mobile-nav-menu a.lynq-logo img.color-logo.active {
-  display: none;
+.nav-container nav .mobile-nav .mobile-nav-menu .lynq-logo strong {
+  font-family: "Montserrat";
 }
-.nav-container nav .mobile-nav .mobile-nav-menu a.lynq-logo img.white-logo {
-  display: none;
-  width: 70px;
-  opacity: 0.7;
-  transition: all 0.3s ease;
-  pointer-events: auto;
-}
-.nav-container nav .mobile-nav .mobile-nav-menu a.lynq-logo img.white-logo.active {
-  display: flex;
+.nav-container nav .mobile-nav .mobile-nav-menu .lynq-logo.active {
+  color: var(--white);
 }
 .nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container {
   width: 20px;
@@ -162,6 +161,7 @@
   display: flex;
   flex-direction: column;
   position: fixed;
+  justify-content: space-between;
   top: 0;
   right: 0;
   left: 0;
@@ -173,9 +173,6 @@
   background: var(--primary);
   gap: 25px;
   z-index: 1;
-}
-.mobile-nav-items .close-menu {
-  color: var(--white);
 }
 .mobile-nav-items ul {
   display: flex;
@@ -194,22 +191,23 @@
 .mobile-nav-items ul li a strong {
   font-family: "Montserrat";
 }
-.mobile-nav-items .divider {
-  background-color: rgba(243, 247, 250, 0.4352941176);
-  height: 1px;
+.mobile-nav-items .lynq-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   opacity: 0;
   transition: all 0.3s ease;
 }
-.mobile-nav-items .lynq-logo {
-  width: 150px;
-  opacity: 0;
-  transition: all 0.3s ease;
+.mobile-nav-items .lynq-logo img {
+  width: 100px;
 }
 
 .mobile-nav-items.active {
   height: 100vh;
   top: 0;
-  padding: 100px 20px;
+  padding: 100px 20px 20px 20px;
 }
 .mobile-nav-items.active ul {
   opacity: 1;

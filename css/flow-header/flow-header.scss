@@ -100,31 +100,27 @@
                 align-items: center;
                 height: inherit;
 
-                a.lynq-logo {
+                .lynq-logo {
 
-                    img.color-logo {
-                        display: flex;
-                        width: 70px;
-                        opacity: 0.7;
-                        transition: all 0.3s ease;
-                        pointer-events: auto;
-                    }
+                    display: block;
+                    text-decoration: none;
+                    color: var(--primary);
+                    font-size: 14px;
+                    font-weight: 400;
+                    border-radius: 0 0 2px 2px;
+                    transition: all 0.3s ease 0s;
+                    text-transform: uppercase;
+                    letter-spacing: 0.05rem;
+                    opacity: .8;
+                    font-family: "Montserrat";
 
-                    img.color-logo.active {
-                        display: none;
+                    strong {
+                        font-family: "Montserrat";
                     }
+                }
 
-                    img.white-logo {
-                        display: none;
-                        width: 70px;
-                        opacity: 0.7;
-                        transition: all 0.3s ease;
-                        pointer-events: auto;
-                    }
-
-                    img.white-logo.active {
-                        display: flex;
-                    }
+                .lynq-logo.active {
+                    color: var(--white);
                 }
 
                 .menu-icon-container {
@@ -189,6 +185,7 @@
     display: flex;
     flex-direction: column;
     position: fixed;
+    justify-content: space-between;
     top: 0;
     right: 0;
     left: 0;
@@ -200,10 +197,6 @@
     background: var(--primary);
     gap: 25px;
     z-index: 1;
-
-    .close-menu {
-        color: var(--white);
-    }
 
     ul {
         display: flex;
@@ -228,24 +221,25 @@
         }
     }
 
-    .divider {
-        background-color: #f3f7fa6f;
-        height: 1px;
-        opacity: 0;
-        transition: all 0.3s ease;
-    }
-
     .lynq-logo {
-        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
         opacity: 0;
         transition: all 0.3s ease;
+
+        img {
+            width: 100px;
+        }
     }
 }
 
 .mobile-nav-items.active {
     height: 100vh;
     top: 0;
-    padding: 100px 20px;
+    padding: 100px 20px 20px 20px;
 
     ul {
         opacity: 1;
