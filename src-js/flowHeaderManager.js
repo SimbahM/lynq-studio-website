@@ -60,8 +60,7 @@ class SpecialFlowHeader extends HTMLElement {
         </ul>
         <div class="divider"></div>
         <div class="lynq-logo">
-            <img class="lynq-logo-color" src="./assets/icons/lynq-studio-logo-with-typeface.svg"
-                alt="LYNQ Studio Logo" />
+            <img class="lynq-logo-color" src="./assets/icons/lynq-favicon-logo.svg" alt="LYNQ Studio Logo" />
         </div>
     </div>
         `

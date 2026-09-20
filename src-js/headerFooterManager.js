@@ -58,8 +58,7 @@ class SpecialHeader extends HTMLElement {
         </ul>
 
         <div class="lynq-logo">
-            <img class="lynq-logo-color" src="./assets/icons/lynq-studio-logo-with-typeface.svg"
-                alt="LYNQ Studio Logo" />
+            <img class="lynq-logo-color" src="./assets/icons/lynq-favicon-logo.svg" alt="LYNQ Studio Logo" />
         </div>
     </div>
         `
@@ -137,7 +136,7 @@ class SpecialFooter extends HTMLElement {
             <div class="legal">
                 <div class="horizontal-divider"></div>
                 <div class="links">
-                    <a href="./lynq-studio"><strong>LYNQ</strong> Studio</a>
+                    <a href="./lynq-story"><strong>LYNQ</strong> Story</a>
                     <div class="divider"></div>
                     <a href="./lynq-journal"><strong>LYNQ</strong> Journal</a>
                     <div class="divider"></div>

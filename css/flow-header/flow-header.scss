@@ -6,11 +6,11 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 70%;
+    width: 1000px;
     margin: 0 auto -50px auto;
     z-index: 300;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1000px) {
         width: 100%;
     }
 
@@ -231,7 +231,7 @@
         transition: all 0.3s ease;
 
         img {
-            width: 100px;
+            width: 50px;
         }
     }
 }
