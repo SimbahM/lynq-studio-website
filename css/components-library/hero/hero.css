@@ -15,7 +15,7 @@ section.hero {
 }
 @media (max-width: 425px) {
   section.hero {
-    height: 50vh;
+    height: 60vh;
   }
 }
 section.hero .container {
@@ -38,6 +38,10 @@ section.hero .container .header {
   font-size: 70px;
   text-align: center;
 }
+section.hero .container .header span {
+  color: var(--accent);
+  font-weight: 300;
+}
 @media (max-width: 1024px) {
   section.hero .container .header {
     font-size: 50px;
@@ -48,14 +52,14 @@ section.hero .container .header {
     font-size: 35px;
   }
 }
+@media (max-width: 425px) {
+  section.hero .container .header {
+    font-size: 25px;
+  }
+}
 section.hero .container p {
   color: var(--white);
   font-size: 24px;
-}
-@media (max-width: 768px) {
-  section.hero .container p {
-    font-size: 18px;
-  }
 }
 @media (max-width: 1024px) {
   section.hero .container .lynq-studio-signature {
@@ -79,11 +83,9 @@ section.hero .container .pagebody {
   text-align: center;
 }
 section.hero .container .pagebody span {
-  font-family: "Montserrat";
   color: var(--white);
 }
 section.hero .container .pagebody span strong {
-  font-family: "Montserrat";
   font-weight: 600;
   color: var(--accent);
 }
@@ -101,7 +103,7 @@ section.hero .container .pagebody span strong {
 }
 @media (max-width: 425px) {
   section.hero .container .pagebody {
-    font-size: 21px;
+    font-size: 16px;
     width: 90%;
   }
 }/*# sourceMappingURL=hero.css.map */

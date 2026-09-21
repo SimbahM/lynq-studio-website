@@ -150,8 +150,6 @@ class SpecialFooter extends HTMLElement {
     }
 }
 
-
-
 customElements.define("special-header", SpecialHeader)
 customElements.define("special-footer", SpecialFooter)
 customElements.define("special-subhead", SpecialSubhead)

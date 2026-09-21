@@ -1,4 +1,4 @@
-.main-container {
+.lynq-studio {
   display: flex;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/home-page/the-gate-.webp);
   background-repeat: no-repeat;
@@ -388,7 +388,7 @@ section.latest-works .cabs .title-wrapper .headline {
 }
 section.latest-works .cabs .title-wrapper .subhead {
   font-size: 21px;
-  width: 750px;
+  width: 600px;
   text-align: center;
 }
 @media (max-width: 1024px) {

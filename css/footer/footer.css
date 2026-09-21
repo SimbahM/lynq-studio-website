@@ -177,7 +177,6 @@ footer .container .legal .links a strong {
 }
 footer .container .legal .links a:hover {
   color: var(--accent);
-  text-decoration: underline;
 }
 footer .container .legal .links .copyright {
   color: var(--secondary);
