@@ -52,6 +52,25 @@ section.hero {
             }
         }
 
+        .home-header {
+            color: var(--white);
+            font-size: 40px;
+            text-align: center;
+
+            span {
+                color: var(--accent);
+                font-weight: 300;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 35px;
+            }
+
+            @media (max-width: 425px) {
+                font-size: 25px;
+            }
+        }
+
         p {
             color: var(--white);
             font-size: 24px;
@@ -71,6 +90,25 @@ section.hero {
         .scrolldown {
             @media (max-width: 1024px) {
                 display: none;
+            }
+        }
+
+        h2 {
+            font-size: 72px;
+            color: var(--white);
+            // font-weight: 400;
+            text-align: center;
+
+            @media (max-width: 1024px) {
+                font-size: 52px;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 42px;
+            }
+
+            @media (max-width: 537px) {
+                font-size: 32px;
             }
         }
 

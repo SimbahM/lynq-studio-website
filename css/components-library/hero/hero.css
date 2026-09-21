@@ -57,6 +57,25 @@ section.hero .container .header span {
     font-size: 25px;
   }
 }
+section.hero .container .home-header {
+  color: var(--white);
+  font-size: 40px;
+  text-align: center;
+}
+section.hero .container .home-header span {
+  color: var(--accent);
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  section.hero .container .home-header {
+    font-size: 35px;
+  }
+}
+@media (max-width: 425px) {
+  section.hero .container .home-header {
+    font-size: 25px;
+  }
+}
 section.hero .container p {
   color: var(--white);
   font-size: 24px;
@@ -74,6 +93,26 @@ section.hero .container p {
 @media (max-width: 1024px) {
   section.hero .container .scrolldown {
     display: none;
+  }
+}
+section.hero .container h2 {
+  font-size: 72px;
+  color: var(--white);
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  section.hero .container h2 {
+    font-size: 52px;
+  }
+}
+@media (max-width: 768px) {
+  section.hero .container h2 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 537px) {
+  section.hero .container h2 {
+    font-size: 32px;
   }
 }
 section.hero .container .pagebody {
