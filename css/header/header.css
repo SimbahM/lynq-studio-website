@@ -214,7 +214,7 @@
 .mobile-nav-items.active {
   height: 100vh;
   top: 0;
-  padding: 100px 20px 20px 20px;
+  padding: 100px 20px 50px 20px;
 }
 .mobile-nav-items.active ul {
   opacity: 1;
