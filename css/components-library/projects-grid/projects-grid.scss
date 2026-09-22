@@ -2,13 +2,9 @@ section.title-wrapper {
     padding: 100px 10px 30px 10px;
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    max-width: 700px;
     margin: 0 auto;
     gap: 70px;
-
-    @media (max-width: 1231px) {
-        max-width: 700px;
-    }
 
     @media (max-width: 768px) {
         padding: 100px 10px 50px 10px;

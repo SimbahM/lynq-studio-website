@@ -117,8 +117,9 @@ section.category-container .heading {
   margin-bottom: 50px;
 }
 section.category-container .heading span {
-  font-size: 40px;
+  font-size: 25px;
   font-family: "Montserrat";
+  color: var(--accent);
 }
 @media (max-width: 600px) {
   section.category-container .heading span {
@@ -127,11 +128,12 @@ section.category-container .heading span {
 }
 section.category-container .heading span strong {
   font-family: "Montserrat";
+  color: var(--secondary);
 }
 section.category-container .heading .divider {
   height: 1px;
   width: 100%;
-  background-color: var(--primary);
+  background-color: rgb(211, 211, 211);
 }
 section.category-container .category-box {
   display: grid;

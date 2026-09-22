@@ -109,7 +109,7 @@ class SpecialFooter extends HTMLElement {
                     +263 77 401 8766
                 </p>
                 <p class="mail">
-                    info@lynqstudio.co.zw
+                    info@lynqstudio.space
                 </p>
             </div>
 

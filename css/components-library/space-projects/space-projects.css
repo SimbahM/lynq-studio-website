@@ -76,11 +76,11 @@ section.text .container .main-title h1.title {
 }
 section.text .container .pagebody-text {
   letter-spacing: 0.02em;
-  font-size: 18px;
+  font-size: 21px;
 }
 @media (max-width: 425px) {
   section.text .container .pagebody-text {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 

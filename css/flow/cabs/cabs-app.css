@@ -59,34 +59,29 @@ section.main-section-container .main-title h1.title2 {
   font-size: 60px;
   font-weight: 700;
   text-align: center;
-  width: 800px;
 }
 @media (max-width: 1024px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
     font-size: 50px;
-    width: 600px;
   }
 }
 @media (max-width: 768px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
     font-size: 40px;
-    width: 400px;
   }
 }
 @media (max-width: 425px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
     font-size: 35px;
-    width: 90%;
   }
 }
 @media (max-width: 425px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
     font-size: 25px;
-    width: 90%;
   }
 }
 section.main-section-container img.signature {
@@ -779,31 +774,26 @@ section.text-display2 .main-title h1.title {
   font-size: 60px;
   font-weight: 700;
   text-align: center;
-  width: 800px;
   color: #101E8E;
 }
 @media (max-width: 1024px) {
   section.text-display2 .main-title h1.title {
     font-size: 50px;
-    width: 600px;
   }
 }
 @media (max-width: 768px) {
   section.text-display2 .main-title h1.title {
     font-size: 40px;
-    width: 400px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 594px) {
   section.text-display2 .main-title h1.title {
     font-size: 35px;
-    width: 90%;
   }
 }
 @media (max-width: 425px) {
   section.text-display2 .main-title h1.title {
     font-size: 25px;
-    width: 90%;
   }
 }
 section.text-display2 .paragraphy {
@@ -812,13 +802,13 @@ section.text-display2 .paragraphy {
 }
 section.text-display2 .paragraphy p.pagebody-text {
   font-size: 21px;
-  width: 900px;
+  width: 700px;
   text-align: center;
   margin-bottom: 20px;
 }
 @media (max-width: 1024px) {
   section.text-display2 .paragraphy p.pagebody-text {
-    width: 700px;
+    width: 600px;
   }
 }
 @media (max-width: 768px) {
@@ -827,7 +817,7 @@ section.text-display2 .paragraphy p.pagebody-text {
     font-size: 18px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 594px) {
   section.text-display2 .paragraphy p.pagebody-text {
     width: 300px;
     font-size: 16px;
