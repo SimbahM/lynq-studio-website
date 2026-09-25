@@ -53,7 +53,7 @@ section.text-wrapper .main-title span.title {
   }
 }
 section.text-wrapper .main-title h1.headline {
-  color: var(--secondary);
+  color: var(--primary);
   font-size: 60px;
   font-weight: 700;
 }
@@ -93,7 +93,7 @@ section.text-wrapper .pagebody .text-style strong {
   font-family: "Montserrat";
 }
 section.text-wrapper .pagebody .text-style span {
-  color: var(--secondary);
+  color: var(--primary);
   margin: 0 10px;
 }
 section.text-wrapper .pagebody span {
@@ -475,7 +475,7 @@ section.text-wrapper-container .pagebody span {
   font-size: 21px;
   font-weight: 500;
   margin-bottom: 100px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 @media (max-width: 1024px) {
   section.text-wrapper-container .pagebody span {

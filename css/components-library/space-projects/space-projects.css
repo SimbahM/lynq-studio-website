@@ -57,7 +57,7 @@ section.text .container .main-title span.header {
 section.text .container .main-title h1.title {
   font-size: 70px;
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--primary);
 }
 @media (max-width: 1024px) {
   section.text .container .main-title h1.title {

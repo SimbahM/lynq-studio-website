@@ -87,6 +87,14 @@ section.hero {
             }
         }
 
+        h2.lynq-studio {
+            color: var(--accent);
+
+            span {
+                color: var(--white);
+            }
+        }
+
         .scrolldown {
             @media (max-width: 1024px) {
                 display: none;

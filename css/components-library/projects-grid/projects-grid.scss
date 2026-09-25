@@ -23,7 +23,7 @@ section.title-wrapper {
         gap: 10px;
 
         h1 {
-            color: var(--secondary);
+            color: var(--primary);
             font-size: 70px;
             font-weight: 700;
 
@@ -38,7 +38,7 @@ section.title-wrapper {
 
         h2 {
             font-size: 30px;
-            color: var(--secondary);
+            color: var(--primary);
             font-weight: 500;
 
             @media (max-width: 768px) {
@@ -54,7 +54,7 @@ section.title-wrapper {
 
         span {
             font-size: 22px;
-            color: var(--secondary);
+            color: var(--primary);
             font-family: "Montserrat";
             font-weight: 600;
 
@@ -103,7 +103,7 @@ section.grid-works {
         align-items: center;
 
         h1 {
-            color: var(--secondary);
+            color: var(--primary);
             font-size: 70px;
             font-weight: 700;
 

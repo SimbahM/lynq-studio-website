@@ -128,7 +128,7 @@ section.category-container .heading span {
 }
 section.category-container .heading span strong {
   font-family: "Montserrat";
-  color: var(--secondary);
+  color: var(--primary);
 }
 section.category-container .heading .divider {
   height: 1px;
@@ -207,7 +207,7 @@ section.category-container .category-box a.category-item .tile-description h1.he
   -webkit-line-clamp: 2;
   overflow: hidden;
   font-size: 18px;
-  color: var(--secondary);
+  color: var(--primary);
   cursor: pointer;
   transition: all 0.3s ease;
 }

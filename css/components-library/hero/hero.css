@@ -90,6 +90,12 @@ section.hero .container p {
     width: 250px;
   }
 }
+section.hero .container h2.lynq-studio {
+  color: var(--accent);
+}
+section.hero .container h2.lynq-studio span {
+  color: var(--white);
+}
 @media (max-width: 1024px) {
   section.hero .container .scrolldown {
     display: none;

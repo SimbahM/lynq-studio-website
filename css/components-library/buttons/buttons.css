@@ -1,38 +1,16 @@
-.primary-button {
+.button {
   text-decoration: none;
-  border-top: 3px rgb(152, 152, 152) solid;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  color: var(--primary);
+  border: 2px solid var(--accent);
+  color: var(--accent);
   font-size: 14px;
-  padding: 13px 35px;
+  padding: 20px 35px;
   text-transform: uppercase;
-  color: var(--white);
-  letter-spacing: 0.15rem;
-  border-radius: 1px;
+  border-radius: 100px;
   transition: all 0.3s ease 0s;
 }
-.primary-button:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(8px);
-  border-top: 3px rgb(255, 255, 255) solid;
-}
-
-.secondary-button {
-  text-decoration: none;
-  border-top: 3px rgba(70, 90, 110, 0.2705882353) solid;
-  background-color: rgba(55, 72, 89, 0.2470588235);
-  color: var(--secondary);
-  font-size: 14px;
-  padding: 13px 35px;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border-radius: 1px;
-  transition: all 0.3s ease 0s;
-}
-.secondary-button:hover {
-  background-color: rgba(55, 72, 89, 0.5490196078);
-  border-top: 3px rgba(48, 64, 81, 0.4823529412) solid;
+.button:hover {
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
   backdrop-filter: blur(8px);
   color: var(--white);
 }

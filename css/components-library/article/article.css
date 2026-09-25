@@ -38,7 +38,7 @@ article .featured-header .headline {
   font-size: 56px;
   width: 653px;
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--primary);
 }
 @media (max-width: 1024px) {
   article .featured-header .headline {
@@ -158,7 +158,7 @@ article.artcile-text .pagebody-text {
 article.artcile-text .pagebody-header {
   font-size: 24px;
   margin-bottom: 20px;
-  color: var(--secondary);
+  color: var(--primary);
 }
 @media (max-width: 425px) {
   article.artcile-text .pagebody-header {

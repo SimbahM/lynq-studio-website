@@ -167,7 +167,7 @@ footer .container .legal .links {
 }
 footer .container .legal .links a {
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--primary);
   font-family: "Montserrat";
   transition: all 0.3s ease;
   text-align: center;
@@ -179,7 +179,7 @@ footer .container .legal .links a:hover {
   color: var(--accent);
 }
 footer .container .legal .links .copyright {
-  color: var(--secondary);
+  color: var(--primary);
 }
 footer .container .legal .links .copyright strong {
   font-family: "Montserrat";

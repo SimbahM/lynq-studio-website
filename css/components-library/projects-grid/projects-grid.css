@@ -25,7 +25,7 @@ section.title-wrapper .heading {
   gap: 10px;
 }
 section.title-wrapper .heading h1 {
-  color: var(--secondary);
+  color: var(--primary);
   font-size: 70px;
   font-weight: 700;
 }
@@ -41,7 +41,7 @@ section.title-wrapper .heading h1 {
 }
 section.title-wrapper .heading h2 {
   font-size: 30px;
-  color: var(--secondary);
+  color: var(--primary);
   font-weight: 500;
 }
 @media (max-width: 768px) {
@@ -56,7 +56,7 @@ section.title-wrapper .heading h2 strong {
 }
 section.title-wrapper .heading span {
   font-size: 22px;
-  color: var(--secondary);
+  color: var(--primary);
   font-family: "Montserrat";
   font-weight: 600;
 }
@@ -105,7 +105,7 @@ section.grid-works .title {
   align-items: center;
 }
 section.grid-works .title h1 {
-  color: var(--secondary);
+  color: var(--primary);
   font-size: 70px;
   font-weight: 700;
 }

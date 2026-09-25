@@ -755,7 +755,7 @@ section.featured .header span.title {
   }
 }
 section.featured .header h1.heading {
-  color: var(--secondary);
+  color: #383D45;
   font-size: 60px;
   font-weight: 700;
   text-align: center;
