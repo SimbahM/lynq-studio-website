@@ -91,10 +91,10 @@ section.hero .container p {
   }
 }
 section.hero .container h2.lynq-studio {
-  color: var(--accent);
+  color: var(--white);
 }
 section.hero .container h2.lynq-studio span {
-  color: var(--white);
+  color: var(--accent);
 }
 @media (max-width: 1024px) {
   section.hero .container .scrolldown {
