@@ -90,6 +90,11 @@ section.hero .container p {
     width: 250px;
   }
 }
+@media (max-width: 425px) {
+  section.hero .container .lynq-studio-signature {
+    width: 200px;
+  }
+}
 section.hero .container h2.lynq-studio {
   color: var(--white);
 }

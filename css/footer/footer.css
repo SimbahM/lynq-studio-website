@@ -138,7 +138,7 @@ footer .container a .lynq-icon {
   height: 54px;
 }
 footer .container a .lynq-icon:hover {
-  fill: var(--ale-brown);
+  fill: var(--secondary);
 }
 footer .container .legal {
   display: flex;

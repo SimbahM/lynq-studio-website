@@ -6,7 +6,7 @@ class SpecialHeader extends HTMLElement {
             <ul class="desktop-nav-items">
                 <li>
                     <a class="logo" href="/">
-                        <strong>LYNQ</strong> Studio
+                        <strong>LYNQ</strong> Studio ®
                     </a>
                 </li>
                 <li>
@@ -28,7 +28,7 @@ class SpecialHeader extends HTMLElement {
             <div class="mobile-nav">
                 <div class="mobile-nav-menu">
                     <a class="lynq-logo" href="/">
-                        <strong>LYNQ</strong> Studio
+                        <strong>LYNQ</strong> Studio ®
                     </a>
                     <div class="menu-icon-container">
                         <div class="menu-icon">
