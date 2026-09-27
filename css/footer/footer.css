@@ -29,7 +29,7 @@ footer .container .social-media ul {
 }
 footer .container .social-media ul li a {
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 1;
   transition: all ease 0.3s;
 }
 @media (max-width: 425px) {
@@ -38,7 +38,7 @@ footer .container .social-media ul li a {
   }
 }
 footer .container .social-media ul li a:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 footer .container .lynq-studio {
   display: flex;
