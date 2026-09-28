@@ -8,16 +8,6 @@ section.hero {
     height: 80vh;
   }
 }
-@media (max-width: 768px) {
-  section.hero {
-    height: 60vh;
-  }
-}
-@media (max-width: 425px) {
-  section.hero {
-    height: 60vh;
-  }
-}
 section.hero .container {
   display: flex;
   flex-direction: column;
@@ -59,19 +49,14 @@ section.hero .container .header span {
 }
 section.hero .container .home-header {
   color: var(--white);
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
 }
 section.hero .container .home-header span {
   color: var(--accent);
   font-weight: 300;
 }
-@media (max-width: 768px) {
-  section.hero .container .home-header {
-    font-size: 35px;
-  }
-}
-@media (max-width: 425px) {
+@media (max-width: 1024px) {
   section.hero .container .home-header {
     font-size: 25px;
   }
@@ -121,23 +106,19 @@ section.hero .container h2 {
     font-size: 42px;
   }
 }
-@media (max-width: 537px) {
-  section.hero .container h2 {
-    font-size: 32px;
-  }
-}
 section.hero .container .pagebody {
   color: var(--white);
   font-size: 24px;
   width: 700px;
   text-align: center;
+  color: var(--white);
 }
 section.hero .container .pagebody span {
-  color: var(--white);
+  color: var(--accent);
 }
 section.hero .container .pagebody span strong {
   font-weight: 600;
-  color: var(--accent);
+  color: var(--white);
 }
 @media (max-width: 1024px) {
   section.hero .container .pagebody {
@@ -148,6 +129,10 @@ section.hero .container .pagebody span strong {
 @media (max-width: 768px) {
   section.hero .container .pagebody {
     font-size: 21px;
+  }
+}
+@media (max-width: 600px) {
+  section.hero .container .pagebody {
     width: 400px;
   }
 }
