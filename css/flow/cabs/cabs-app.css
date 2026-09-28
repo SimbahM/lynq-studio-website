@@ -69,12 +69,6 @@ section.main-section-container .main-title h1.title2 {
 @media (max-width: 768px) {
   section.main-section-container .main-title h1.title,
   section.main-section-container .main-title h1.title2 {
-    font-size: 40px;
-  }
-}
-@media (max-width: 425px) {
-  section.main-section-container .main-title h1.title,
-  section.main-section-container .main-title h1.title2 {
     font-size: 35px;
   }
 }
